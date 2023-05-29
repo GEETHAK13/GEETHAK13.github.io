@@ -1,1 +1,1 @@
-alert("HI")
+console.log("Being zero")
