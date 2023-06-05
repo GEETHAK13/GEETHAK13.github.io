@@ -1,10 +1,14 @@
 
+.container{
+    margin-left: 10px;
+}
+
 th{
     color:brown;
 }
 .card{
     box-shadow: 0 4px 8px 0 black;
-    width:33%;
+    width:30%;
     padding-left: 10px;
     padding-right: 10px;
     transition:0.5s;
@@ -14,19 +18,22 @@ th{
 .card:hover{
     box-shadow: 0 20px 30px 0 pink;
 }
-.user{
+.name{
     margin-top:0;
     font-size:30px;
     font-weight:bold ;
     margin-bottom:0;
 }
-.user_designation{
+.designation{
     font-size:20px;
     font-style:italic;
     margin-top: 5px;
     margin-bottom: 5px;
 }
-
+.toggle{
+    background-color: brown;
+    color:bisque;
+}
 h2 {
     color:aquamarine;
 }
